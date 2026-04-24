@@ -118,13 +118,60 @@ FlipkartAutomationFramework/
 ├── README.md
 ├── .gitignore
 │
-└── src/test/java/
-    ├── base/
-    ├── pages/
-    ├── tests/
-    ├── utilities/
-    └── listeners/
-```
+├── src
+│   └── test
+│       ├── java
+│       │   ├── base
+│       │   │    └── BaseTest.java
+│       │   │
+│       │   ├── pages
+│       │   │    ├── HomePage.java
+│       │   │    ├── LoginPopup.java
+│       │   │    ├── SearchPage.java
+│       │   │    ├── ProductPage.java
+│       │   │    ├── CartPage.java
+│       │   │    ├── CheckoutPage.java
+│       │   │    └── WishlistPage.java
+│       │   │
+│       │   ├── tests
+│       │   │    ├── LoginTest.java
+│       │   │    ├── SearchTest.java
+│       │   │    ├── FilterTest.java
+│       │   │    ├── CartTest.java
+│       │   │    ├── WishlistTest.java
+│       │   │    ├── CheckoutTest.java
+│       │   │    ├── CrossBrowserTest.java
+│       │   │    ├── BrokenLinkTest.java
+│       │   │    ├── DBValidationTest.java
+│       │   │    └── PriceMonitorTest.java
+│       │   │
+│       │   ├── utilities
+│       │   │    ├── DriverFactory.java
+│       │   │    ├── ConfigReader.java
+│       │   │    ├── WaitUtil.java
+│       │   │    ├── ExcelUtil.java
+│       │   │    ├── ScreenshotUtil.java
+│       │   │    ├── DBUtil.java
+│       │   │    └── ExtentReportManager.java
+│       │   │
+│       │   └── listeners
+│       │        ├── TestListener.java
+│       │        ├── RetryAnalyzer.java
+│       │        └── AnnotationTransformer.java
+│       │
+│       └── resources
+│            ├── config.properties
+│            ├── log4j2.xml
+│            └── testdata.xlsx
+│
+├── reports
+│   └── extent-report.html
+│
+├── screenshots
+│
+├── logs
+│
+└── target
 
 ---
 
